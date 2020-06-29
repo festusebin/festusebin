@@ -1,0 +1,174 @@
+#Hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 420px;
+    height: 100%;
+    background: #ccd6f6;
+    z-index: -2;
+  }
+
+  &::after {
+    content: 'Software';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 19vw;
+    z-index: -2;
+    font-weight: 700;
+    color: #dce7ff;
+    opacity: 0.05;
+  }
+
+
+  .heroText {
+    position: relative;
+    max-width: 600px;
+    margin: 150px auto;
+    text-align: center;
+
+    .title {
+      font-size: 48px;
+      font-family: Calibre;
+      font-weight: normal;
+      font-style: normal;
+      color: #606a86;
+
+      span {
+        font-size: 40px;
+        color: #4c5772;
+        font-family: Calibre;
+      }
+    }
+
+    .name {
+      width: 100%;
+      overflow: hidden;
+      font-size: 60px;
+      font-family: SF Mono, sans-serif;
+      color: #ffffff;
+      white-space: nowrap;
+      letter-spacing: 0.05em;
+      animation: typing 3.5s steps(50, end);
+    }
+
+    /*     .subtitle {
+      font-size: 32px;
+      color: #ccd6f6;
+      letter-spacing: 0.07em;
+    } */
+
+    .desc {
+      width: 100%;
+      overflow: hidden;
+      font-size: 18px;
+      margin: 30px 0;
+      color: #ccd6f6;
+      letter-spacing: 0.06em;
+      line-height: 1.8em;
+    }
+
+    a {
+      position: relative;
+      display: inline-block;
+      border: 2px solid #dce7ff;
+      border-radius: 4px;
+      padding: 10px 25px;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #dce7ff;
+      letter-spacing: 1px;
+      font-size: 18px;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: #606a86;
+        z-index: -1;
+        transition: 0.5s ease-in-out;
+      }
+
+      &:hover::before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #Hero {
+    .heroText {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 680px) {
+  #Hero {
+    div {
+      width: 85%;
+
+      .name {
+        width: 100%;
+        font-size: 28px;
+        font-family: SF Mono, sans-serif;
+      }
+
+      .desc {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Hero {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+@media screen and (min-width: 990px) {
+  #Hero {
+    div {
+      width: 80%;
+      padding: 50px;
+
+      .name {
+        width: 100%;
+        font-size: 60px;
+        font-family: SF Mono, sans-serif;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #Hero {
+    &::before {
+      width: 260px;
+    }
+  }
+}

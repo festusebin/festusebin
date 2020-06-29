@@ -1,0 +1,27 @@
+.icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  
+  .social-icons-container {
+    position: relative;
+    display: flex;
+    
+    li {
+      list-style: none;
+      margin-right: 30px;
+      
+      img {
+        display: inline-block;
+        max-height: 32px;
+        transition: 0.5s ease-in-out;
+        color: #ccd6f6;
+      }
+
+      &:hover img {
+        transform: translateY(-10px);
+      }
+    }
+  }
+}

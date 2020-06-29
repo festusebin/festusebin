@@ -1,0 +1,112 @@
+#contact {
+  h1 {
+    text-align: center;
+    position: relative;
+    width: 100px;
+    margin: 50px auto;
+    font-family: SF Mono, sans-serif;
+    color: #ccd6f6;
+
+    span {
+      font-family: SF Mono;
+      font-weight: 500;
+      font-style: normal;
+    }
+
+    &::after {
+      display: block;
+      position: absolute;
+      left: 30px;
+      bottom: -20px;
+      width: 80px;
+      height: 8px;
+      background-color: #4c5772;
+      content: '';
+    }
+  }
+
+  width: 90%;
+  margin: 0 auto;
+
+  form {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      text-align: left;
+      border: none;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px rgba(0, 0, 0, 0.15);
+      border-radius: 0.3rem;
+      font-family: Calibre-Medium, sans-serif;
+      background-color: #dce7ff;
+      color: #2d3952;
+
+      &::placeholder {
+        font-family: Calibre-Medium, sans-serif;
+        font-size: 16px;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      height: 200px;
+      resize: none;
+      text-align: left;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.05);
+      border: solid 1px rgba(0, 0, 0, 0.15);
+      background-color: #dce7ff;
+      color: #2d3952;
+
+      font-family: Calibre-Medium, sans-serif;
+
+      &::placeholder {
+        font-family: Calibre-Medium, sans-serif;
+        font-size: 16px;
+      }
+    }
+
+    input[type='submit'] {
+      width: 200px;
+      text-align: center;
+      border: none;
+      padding: 14px 20px;
+      margin-bottom: 20px;
+      background: #dce7ff;
+      border-radius: 0.3rem;
+      font-family: Calibre-Medium, sans-serif;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #contact {
+    form {
+
+      .form-container {
+        display: flex;
+        justify-content: space-between;
+
+        input[type='text'],
+        input[type='email'] {
+          width: 45%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #contact {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,6 +1,6 @@
 # Portfolio Website - v1
 
-<p align='center'>
+<p>
   <a href='https://app.netlify.com/sites/festusebin/deploys' target='_blank'>
     <img src='https://api.netlify.com/api/v1/badges/bbe24f08-e7e1-43df-b0d6-727390844075/deploy-status' alt='Netlify status' />
   </a>

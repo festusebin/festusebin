@@ -5,6 +5,7 @@ import SocialIcons from './components/SocialIcons/SocialIcons';
 import Portfolio from './components/Portfolio/Portfolio';
 //import Blog from './components/Blog/Blog';
 import Contact from './components/Contact/Contact';
+import Sidebar from './components/Sidebar/Sidebar'
 //import Footer from './components/Footer/Footer';
 
 
@@ -17,6 +18,7 @@ const App = () => {
       {/* <Blog /> */}
       <Contact />
       <SocialIcons />
+      <Sidebar />
       {/* <Footer /> */}
     </Fragment>
   );

@@ -1,26 +1,51 @@
 .icons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 0;
+  position: fixed;
+  bottom: 30px;
+  left: 10px;
   
   .social-icons-container {
-    position: relative;
     display: flex;
-    
-    li {
-      list-style: none;
-      margin-right: 30px;
-      
-      img {
-        display: inline-block;
-        max-height: 32px;
-        transition: 0.5s ease-in-out;
-        color: #ccd6f6;
-      }
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
 
-      &:hover img {
-        transform: translateY(-10px);
+    &::after {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 90px;
+      margin: 0 auto;
+      background-color: #a8b2d1;
+    }
+    
+    li:last-of-type {
+      margin-bottom: 20px;
+
+      a {
+        padding: 10px;
+        &:hover,
+        &:focus {
+          transform: translateY(-3px);
+
+          i {
+            font-size: 28px;
+            color: #a8b2d1;
+          }
+
+          i.twitter:hover {
+            color: #1da1f2;
+          }
+
+          i.github:hover {
+            color: #24292e;
+          }
+
+          i.linkedin:hover {
+            color: #0077b5;
+          }
+        }
       }
     }
   }

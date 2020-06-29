@@ -30,19 +30,19 @@
 
   .heroText {
     position: relative;
-    max-width: 600px;
-    margin: 150px auto;
-    text-align: center;
+    //min-width: 600px;
+    margin: 130px 300px;
+    //text-align: center;
 
     .title {
-      font-size: 48px;
+      font-size: 24px;
       font-family: Calibre;
       font-weight: normal;
       font-style: normal;
-      color: #606a86;
+      color: #4c5772;
 
       span {
-        font-size: 40px;
+        font-size: 24px;
         color: #4c5772;
         font-family: Calibre;
       }
@@ -51,21 +51,21 @@
     .name {
       width: 100%;
       overflow: hidden;
-      font-size: 60px;
+      font-size: 80px;
       font-family: SF Mono, sans-serif;
       color: #ffffff;
       white-space: nowrap;
-      letter-spacing: 0.05em;
       animation: typing 3.5s steps(50, end);
     }
 
-    /*     .subtitle {
-      font-size: 32px;
+/*     .subtitle {
+      font-size: 56px;
       color: #ccd6f6;
-      letter-spacing: 0.07em;
+      letter-spacing: 0.02em;
     } */
 
     .desc {
+      max-width: 600px;
       width: 100%;
       overflow: hidden;
       font-size: 18px;

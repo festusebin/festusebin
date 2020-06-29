@@ -1,0 +1,26 @@
+.sidebar {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+
+  .sidebar-email {
+    color: #172a45;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-right: 10px;
+    margin-bottom: 90px;
+    text-align: center;
+    font-family: SF Mono;
+    font-size: 14px;
+    
+    &::after {
+      content: '';
+      width: 1px;
+      height: 90px;
+      border-left: 1px solid #172a45;
+      position: absolute;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+  }
+}

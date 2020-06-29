@@ -6,18 +6,20 @@ import { Component } from 'react';
 
 class Hero extends Component {
   state = {
-    name: 'Festus Ebin',
+    name: 'Festus Ebin.',
+    subtitle: 'I build cool stuff for humans.',
     desc: 'I am a full stack developer focused on building beautiful interfaces & experiences based in Lagos, Nigeria'
   }
 
   render() {
-    const { name, desc } = this.state;
+    const { name, subtitle, desc } = this.state;
 
     return (
       <section id="Hero">
         <div className='heroText active'>
           <p className='title'>Hi, <span>my name is</span></p>
           <p className='name'>{name}</p>
+          {/*<p className='subtitle'>{subtitle}</p>*/}
           <p className='desc'>{desc}</p>
           <a rel='noopener noreferrer' href={Resume} target='_blank'>Resume</a>
         </div>

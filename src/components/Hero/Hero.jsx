@@ -19,7 +19,6 @@ class Hero extends Component {
         <div className='heroText active'>
           <p className='title'>Hi, <span>my name is</span></p>
           <p className='name'>{name}</p>
-          {/*<p className='subtitle'>{subtitle}</p>*/}
           <p className='desc'>{desc}</p>
           <a rel='noopener noreferrer' href={Resume} target='_blank'>Resume</a>
         </div>

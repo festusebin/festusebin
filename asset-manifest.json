@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca99de17.chunk.css",
+    "main.js": "/static/js/main.3f602633.chunk.js",
+    "main.js.map": "/static/js/main.3f602633.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.4c69855a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.4c69855a.js.map",
+    "static/js/2.cbc05565.chunk.js": "/static/js/2.cbc05565.chunk.js",
+    "static/js/2.cbc05565.chunk.js.map": "/static/js/2.cbc05565.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d2e2efe5aad64e4b307a5359e2a3e24.js": "/precache-manifest.0d2e2efe5aad64e4b307a5359e2a3e24.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ca99de17.chunk.css.map": "/static/css/main.ca99de17.chunk.css.map",
+    "static/js/2.cbc05565.chunk.js.LICENSE.txt": "/static/js/2.cbc05565.chunk.js.LICENSE.txt",
+    "static/media/base.scss": "/static/media/SFMono-SemiboldItalic.ca70ba8a.ttf",
+    "static/media/Festus_Ebin.pdf": "/static/media/Festus_Ebin.4eb013dc.pdf",
+    "static/media/background.jpg": "/static/media/background.00051dbb.jpg",
+    "static/media/coding-on-laptop.jpg": "/static/media/coding-on-laptop.d93596fe.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c69855a.js",
+    "static/js/2.cbc05565.chunk.js",
+    "static/css/main.ca99de17.chunk.css",
+    "static/js/main.3f602633.chunk.js"
+  ]
+}

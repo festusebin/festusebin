@@ -19,34 +19,30 @@
       margin: 0 auto;
       background-color: #a8b2d1;
     }
-    
-    li:last-of-type {
-      margin-bottom: 20px;
 
       a {
         padding: 10px;
         &:hover,
         &:focus {
           transform: translateY(-3px);
+        }
+        i {
+          font-size: 22px;
+          margin-bottom: 10px;
+          color: #a8b2d1;
+        }
 
-          i {
-            font-size: 28px;
-            color: #a8b2d1;
-          }
+        i.twitter:hover {
+          color: #1da1f2;
+        }
 
-          i.twitter:hover {
-            color: #1da1f2;
-          }
+        i.github:hover {
+          color: #24292e;
+        }
 
-          i.github:hover {
-            color: #24292e;
-          }
-
-          i.linkedin:hover {
-            color: #0077b5;
-          }
+        i.linkedin:hover {
+          color: #0077b5;
         }
       }
-    }
   }
 }

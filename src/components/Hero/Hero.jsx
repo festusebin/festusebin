@@ -12,7 +12,7 @@ class Hero extends Component {
   }
 
   render() {
-    const { name, subtitle, desc } = this.state;
+    const { name, desc } = this.state;
 
     return (
       <section id="Hero">

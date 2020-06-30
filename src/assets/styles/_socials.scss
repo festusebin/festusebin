@@ -27,21 +27,24 @@
           transform: translateY(-3px);
         }
         i {
-          font-size: 22px;
-          margin-bottom: 10px;
+          font-size: 20px;
+          margin-bottom: 20px;
           color: #a8b2d1;
         }
-
-        i.twitter:hover {
-          color: #1da1f2;
-        }
-
         i.github:hover {
           color: #24292e;
         }
 
         i.linkedin:hover {
           color: #0077b5;
+        }
+        
+        i.medium:hover {
+          color: #3f729b;
+        }
+
+        i.twitter:hover {
+          color: #1da1f2;
         }
       }
   }

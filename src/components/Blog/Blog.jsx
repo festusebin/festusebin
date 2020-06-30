@@ -9,8 +9,8 @@ class Blog extends Component {
       blog: [
         {
           imageSrc: 'https://',
-          name: 'Is it wrong if i make mistake?',
-          url: 'https://medium'
+          name: '',
+          url: 'https://medium.com/festusebin'
         }
       ]
     }

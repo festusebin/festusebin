@@ -8,7 +8,7 @@ const Project = ({ name, imageSrc, desc, repository, liveVersion, status }) => (
       <p className='desc'>{desc} <span>{status}</span></p>
       <div className='project-links'>
         <a rel='noopener noreferrer' href={liveVersion} target='_blank' className='live'><i class='fa fa-globe'></i><p>Live Demo</p></a>
-        <a rel='noopener noreferrer' href={repository} target='_blank' className='git'><i class='fa fa-github'><p>View Source</p></i></a>
+        <a rel='noopener noreferrer' href={repository} target='_blank' className='git'><i class='fa fa-github'></i><p>View Code</p></a>
       </div>
     </div>
     <div className='projectImage'><img src={imageSrc} alt={name} /></div>

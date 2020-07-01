@@ -17,7 +17,7 @@ class Contact extends Component {
       <section id='contact'>
         <h1><span>03.</span>Contact</h1>
 
-        <form action="#" method="post">
+        <form action="mailto:festusebin@gmail.com" method="post">
           <div className='form-container'>
             <input type="text" name="from" placeholder='Name' />
             <input type="email" name="email" placeholder='Email' />

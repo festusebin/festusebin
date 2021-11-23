@@ -9,7 +9,7 @@ I also take a special interest in passing my knowledge to others through mentors
 
 I am passionate about developing financial technology solutions.
 
-I take special interest in developing my expertise in Front and backend technologies specifically React JS, Node JS, Python, MySQL/MongoDB/PostgreSQL, and AWS/Azure.
+I take special interest in developing my expertise in Front and backend technologies specifically React JS, Node JS, c#, MySQL/MongoDB/PostgreSQL, and AWS/Azure.
 
 I look forward to collaborating with amazing software developers on building Financial technology applications for the global and most especially the African Market.
 

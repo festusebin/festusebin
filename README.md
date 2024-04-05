@@ -15,6 +15,6 @@ I look forward to collaborating with amazing DevOps engineers on building automa
 
 I am open to any opportunity to contribute to awesome open source projects.
 
-Send me a message: festusebin@gmail.com.
+Shoot me a mail: festusebin@gmail.com.
 
   I love catching fun and I am happy to hang out with fun-loving people.😄😄😄</p>
